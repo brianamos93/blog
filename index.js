@@ -1,7 +1,7 @@
-require('dotenv').config()
 const http = require('http')
 const express = require('express')
 const app = express()
+const config = require('./utils/config')
 const cors = require('cors')
 const mongoose = require('mongoose')
 
